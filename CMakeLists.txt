@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.29)
-project(learn_cuda CUDA)
+project(seavee CUDA)
 
 set(CMAKE_CUDA_STANDARD 20)
 
-add_executable(learn_cuda main.cu)
+add_executable(seavee main.cu)
 
-set_target_properties(learn_cuda PROPERTIES
+set_target_properties(seavee PROPERTIES
         CUDA_SEPARABLE_COMPILATION ON)
