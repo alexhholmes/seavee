@@ -7,4 +7,3 @@ add_executable(seavee main.cu)
 
 set_target_properties(seavee PROPERTIES
         CUDA_SEPARABLE_COMPILATION ON)
-
